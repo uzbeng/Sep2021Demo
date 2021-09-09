@@ -32,6 +32,8 @@ public class Base {
 		fromDest = prop.getProperty("fromDest");
 		toDest = prop.getProperty("toDest");
 		
+		// Adding comment fot git purpose
+		
 		if(browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "C:\\webdrivers\\chromedriver.exe");
 			driver = new ChromeDriver();
